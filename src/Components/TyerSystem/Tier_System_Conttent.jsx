@@ -1,5 +1,4 @@
 import React from "react";
-import iconSilver from '../../assets/images/icons/iconSilver.svg'
 import BGShape from '../../assets/images/bg/BGShape.svg'
 const Tier_System_Conttent = () => {
   return (
@@ -35,7 +34,7 @@ const Tier_System_Conttent = () => {
           <li className="tiersItem">
             <span>
               <img
-                src={iconSilver}
+                src={""}
                 alt="icon"
                 className="img-fluid"
               />
