@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+.headerOne {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+
+}
+
+.headerTop {
+    min-height: 800px;
+    background: url("./assets/images/bg/bgV2.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    position: relative;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.RightFalse {
+    right: 0%;
+    display: block;
+}
+
+.RightTrue {
+    right: -100%;
+}
+
+@media (max-width:991px) {
+    .mobileNavigationRight {
+        transition: 500ms;
+        width: 40%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+
+        z-index: 100;
+        background: white;
+        padding: 25px;
+
+        .navbarClose {
+            font-size: 32px;
+            cursor: pointer;
+        }
+    }
+
+    .navMenuLi {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        display: block;
+        color: #090b1a;
+        padding: 10px 0;
+        line-height: 30px;
+        width: 100%;
+        font-family: "Russo One", sans-serif;
+
+        &:hover {
+            color: #090b1a;
+        }
+    }
+
+}
+
+@media (max-width:768px) {
+    .mobileNavigationRight {
+        width: 40%;
+    }
+}
+
+@media (max-width:576px) {
+    .mobileNavigationRight {
+        width: 100%;
+    }
+}
+
+.GamfiBody {
+    height: 200vh;
+}
+
+.bbbbgg {
+    background: transparent;
+}
+
+.RoadmapTabBtns ul li:active {
+    &button {
+        background: rgba(255, 255, 255, 0.15);
+        border: none;
+    }
+}
+
+.RoadmapTabBtns ul .active,
+.active1,
+.active2 {
+    &button {
+        background: rgba(255, 255, 255, 0.15);
+        border: none;
+    }
+}
+
+.dsc {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+}
+
+.accardionH2 {
+    cursor: pointer;
+    background: transparent !important;
+    height: 76px;
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.7);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-transform: none;
+
+    &:hover {
+        background: transparent;
+    }
+}
+
+.accordion-body p {
+    padding: 0px 48px 24px 29px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.7) !important;
+    margin-bottom: 0px;
+    max-width: 100%;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ffff !important;
+    background-color: #e7f1ff;
+    box-shadow: inset 0 -1px 0 rgb(0, 0, 0 / 13%);
+
+}
+
+.footer-icon-list {
+    li {
+        a {
+            svg {
+                font-size: 32px;
+            }
+        }
+    }
+}
+
+// .indexZed{
+//     z-index: 5;
+// }
+.mainClassCaunt {
+    background: rgba(30, 31, 53, 0.8);
+    backdrop-filter: blur(5px);
+    min-height: 158px;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mainCenter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mainH2 {
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 45px;
+    margin-bottom: 0px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.countplus {
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #6D4AFE;
+    margin-bottom: 0px;
+}
+
+.project-listing {
+    li {
+        color: #ffff;
+    }
+}
+.react-tabs__tab--selected {
+    background: rgba(255, 255, 255, 0.15) !important; 
+    border-color: #aaa;
+    color: black;
+    border-radius: 5px 5px 0 0;
+}
