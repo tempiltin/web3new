@@ -1,6 +1,6 @@
 import React from "react";
-import '../../assets/css/style.css'
-import '../../index.scss'
+// import '../../assets/css/style.css'
+// import '../../index.scss'
 import CountUp from 'react-countup';
 const MarketCapSect = () => {
   return (
